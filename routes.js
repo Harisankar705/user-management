@@ -2,11 +2,11 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const db = require('../model/db');
-const User=require('../model/config');
+const db = require('./model/db');
+const User=require('./model/config');
 const session = require('express-session');
-const auth=require('../middleware/userAuth')
-const adminAuth=require('../middleware/AdminAuth')
+const auth=require('./middleware/userAuth')
+const adminAuth=require('./middleware/AdminAuth')
 
 
 

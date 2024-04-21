@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const session = require('express-session');
 const mongoose = require('./model/db');
-const routes = require('./src/routes');
+const routes = require('./routes');
 const nocache = require('nocache');
 
 const app = express();
