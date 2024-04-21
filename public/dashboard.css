@@ -1,0 +1,100 @@
+/* Body Styles */
+body {
+  background-image: url('./assets/wallpaperflare.com_wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0 to 1) to set the opacity */
+}
+
+#textcontent{
+
+      border: 2px solid #000; /* 2px solid black border around the text content */
+      padding: 20px; /* Add some padding for better visual appearance */
+      border-radius: 10px; /* Optional: Add rounded corners for a softer look */
+  }
+  
+
+  
+  /* Navigation Bar Styles */
+  .nav-bar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .list li {
+    margin: 0 15px;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Container Styles */
+  .div-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  
+
+  .welcome-tag {
+    font-size: 24px;
+    margin: 0;
+    font-family:Vina Sans;
+  }
+  
+  .user {
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+  }
+  
+  .login-stats {
+    font-size: 20px;
+    color:antiquewhite;
+  }
+  
+  /* Button Styles */
+  .log-btn {
+    margin-top: 20px;
+  }
+  
+  .btn {
+  
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-light {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  
+  
+  .btn.btn:hover
+  {
+    background-color: #0056b3;
+  }
+  

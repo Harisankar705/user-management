@@ -1,0 +1,91 @@
+*
+{
+    font-family:'Verdana', sans-serif;
+
+}
+body {
+    font-family:'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Bootstrap background color */
+    background-image: url('./assets/hari.jpg');
+}
+.opacity{
+    font-family: 'Georgia', serif;
+    font-size:40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    position: relative;
+    background-color:rgb(117, 117, 230);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+}
+
+.circle {
+    position: absolute;
+    background-color: #007bff; /* Bootstrap primary color */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle-one {
+    top: -50px;
+    left: -50px;
+}
+
+.circle-two {
+    bottom: -50px;
+    right: -50px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Slightly darker shade on hover */
+}
+
+.theme-btn-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Add any additional styles as needed */
